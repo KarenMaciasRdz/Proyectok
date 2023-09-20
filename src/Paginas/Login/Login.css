@@ -1,0 +1,23 @@
+.todoLogin {
+   
+    align-items: center;
+    
+}
+.campoUsuario {
+    display: grid;
+    text-align: center;
+    border-radius: 8px;
+   
+}
+.campoContra {
+    display: grid;
+    text-align: center;
+    border-radius: 8px;
+}
+.boton {
+    background-color: #F9FBFC;
+    display: grid;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
