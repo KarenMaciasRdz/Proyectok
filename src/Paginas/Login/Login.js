@@ -4,13 +4,17 @@ import "./Login.css";
 
 function Login (){
     return (<h1>
-        <div className="todoLogin">
-        Login
-        <input className="campoUsuario"/>
-        <input className="campoContra"/>
-
-        <button className="boton">Ingresar</button>
+        <div className="Letras">
+           Login 
         </div>
+        
+        <div className="Campos">
+        <input className="campoUsuario" placeholder="Usuario"/>
+        <input className="campoContra" placeholder="Contraseña"/>
+
+        <button className="boton">Ingresar</button>  
+        </div>
+
     </h1>)
 }
 

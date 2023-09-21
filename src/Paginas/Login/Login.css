@@ -1,23 +1,56 @@
-.todoLogin {
-   
-    align-items: center;
+body {
+    background-image: url('https://img.freepik.com/fotos-premium/hermoso-fondo-degradado-ondas-humo-abstracto-color-azul_575980-4949.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Playfair Display', serif;
     
+}
+
+.Campos {
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   margin: 10%;
+   padding: 5%;
+   background-image:("https://img.freepik.com/fotos-premium/hermoso-fondo-degradado-ondas-humo-abstracto-color-azul_575980-4949.jpg") ;
+}
+.Letras {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+    color: aliceblue;
 }
 .campoUsuario {
     display: grid;
     text-align: center;
     border-radius: 8px;
-   
+    margin: 10%;
+    padding: 3%;
+    font-family: 'Playfair Display', serif;
 }
 .campoContra {
     display: grid;
     text-align: center;
     border-radius: 8px;
+    margin: 10%;
+    padding: 3%;
+    font-family: 'Playfair Display', serif;
 }
 .boton {
-    background-color: #F9FBFC;
-    display: grid;
-    text-align: center;
-    border-radius: 8px;
+    width: 88px;
+    height: 30px;
+    margin:0 auto;
+    background-color: grey;
+    border: 4px  brown;
+    color: black;
+    padding: 7px 20px; 
+    font-size: 15px;
+    border-radius: 10px;
     cursor: pointer;
+    font-family: 'Playfair Display', serif;
+}
+.campoContra:focus, .campoUsuario{
+    outline-color: rgb(111, 176, 219);
 }
